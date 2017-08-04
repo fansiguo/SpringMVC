@@ -1,0 +1,17 @@
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h1>findUser</h1>
+<table>
+    #foreach(${u} in ${users})
+        <tr>
+            <td>${u.id}</td>
+            <td>${u.userName}</td>
+            <td>${u.birthday}</td>
+        </tr>
+    #end
+</table>
+</body>
+</html>
